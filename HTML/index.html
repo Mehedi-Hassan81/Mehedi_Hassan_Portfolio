@@ -1,189 +1,540 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mehedi Hassan - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <title>Mehedi Hassan | Researcher • QA Engineer • Data Analyst</title>
+
+    <meta name="description"
+        content="Mehedi Hassan - Researcher, QA Engineer, Data Analyst and Senior Officer (IT) at Uttara Bank PLC. Publications in AI, NLP, Computer Vision, IoT and Software Quality Assurance.">
+
+    <meta name="keywords"
+        content="Mehedi Hassan, QA Engineer, Data Analyst, Researcher, Software Engineering, AI, Machine Learning, Banking Technology">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4e6d7cbf4b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Mehedi Hassan</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#bio">Bio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                    <button id="theme-toggle" class="btn btn-light ms-2">Toggle Theme</button>
-                </div>
-            </div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            MH
+        </div>
+
+        <nav>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
         </nav>
+
     </header>
 
-    <main>
-        <section id="bio" class="min-vh-100 d-flex align-items-center">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center" data-aos="fade-right">
-                        <div class="profile-image-container">
-                            <img src="../Photos/AMehediPhotoPortfolio.png" alt="Mehedi Hassan" class="img-fluid rounded-circle animate-float" style="max-width: 300px;">
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-left">
-                        <div class="bio-content">
-                            <h1 class="display-4 fw-bold mb-4">Hello, I'm Mehedi Hassan</h1>
-                            <p class="lead mb-4">A tech enthusiast building innovative solutions with web technologies and AI/ML.</p>
-                            <div class="d-flex gap-3">
-                                <a href="#projects" class="btn btn-primary btn-lg">View Projects</a>
-                                <a href="#contact" class="btn btn-outline-primary btn-lg">Contact Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- ================= HERO ================= -->
 
-        <section id="skills" class="py-6">
-            <div class="container">
-                <h2 class="section-title text-center" data-aos="fade-up">Skills & Expertise</h2>
-                <div class="row g-4">
-                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-                        <div class="skill-item">
-                            <h3>Programming</h3>
-                            <p>Python, C++, Java, Web Technologies</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-                        <div class="skill-item">
-                            <h3>Frameworks & Tools</h3>
-                            <p>TensorFlow, PyTorch, Keras, Scikit-Learn, Bootstrap, Git/Github, Marimo, Jupyter Notebook, CISCO Packet Tracer, VS Code, Octave Online, MATLAB</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
-                        <div class="skill-item">
-                            <h3>Technologies</h3>
-                            <p>Linux CLI, IoT (Arduino), Networking (TCP/IP)</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
-                        <div class="skill-item">
-                            <h3>Methodologies</h3>
-                            <p>Agile, Scrum, SDLC</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="500">
-                        <div class="skill-item">
-                            <h3>Bug Tracking</h3>
-                            <p>JIRA</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
-                        <div class="skill-item">
-                            <h3>Basic Knowledge</h3>
-                            <p>Data Science, Data Analysis, Software Quality Assurance</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section id="home" class="hero">
 
-        <section id="experience" class="py-6 bg-light">
-            <div class="container">
-                <h2 class="section-title text-center" data-aos="fade-up">Experience</h2>
-                <div class="timeline">
-                    <div class="card mb-4" data-aos="custom-fade-up">
-                        <h3>Assistant IT Officer | <a href="https://www.nirjaas.com/index.html" target="_blank" class="company-link">Nirjaas Group</a> | Dec 2024 – Present</h3>
-                        <p>PMP Plaza, 14, Kemal Ataturk Avenue, Banani C/A, Dhaka-1213.</p>
-                        <p><b>Responsibilities:<br></b> - responsive web apps with HTML, CSS, JS, and PHP.<br>- Develop AI/ML solutions using Python and TensorFlow for internal projects.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="hero-left">
 
-        <section id="projects" class="py-6">
-            <div class="container">
-                <h2 class="section-title text-center" data-aos="fade-up">Featured Projects</h2>
-                <div class="projects-grid">
-                    <div class="card" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Physiotherapy & Nursing Services Website</h3>
-                        <p>Responsive frontend with registration, booking, and payment features.</p>
-                        <p><strong>Tech:</strong> HTML, CSS, JS, Bootstrap</p>
-                        <p><strong>Duration:</strong> 3 Months</p>
-                        <div class="project-links">
-                            <a href="https://nursephysioaid.netlify.app/" target="_blank" style="pointer-events: auto;">Live Demo</a>
-                        </div>
-                    </div>
-                    <div class="card" data-aos="fade-up" data-aos-delay="200">
-                        <h3>Face Detection with MTCNN & DenseNet</h3>
-                        <p>96.7% accurate real-time security solution.</p>
-                        <p><strong>Tech:</strong> Python, Keras, PyTorch, MTCNN, DenseNet</p>
-                        <p><strong>Duration:</strong> 1 Year</p>
-                        <div class="project-links">
-                            <a href="https://github.com/Mehedi-Hassan81/AI-ML/tree/master" target="_blank"style="pointer-events: auto;">GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card" data-aos="fade-up" data-aos-delay="300">
-                        <h3>Admission Management System</h3>
-                        <p>Real-time university application platform.</p>
-                        <p><strong>Tech:</strong> HTML, CSS, JS, PHP, MySQL</p>
-                        <p><strong>Duration:</strong> 5 Months</p>
-                        <div class="project-links">
-                            <a href="https://github.com/Mehedi-Hassan81/Central-Admission-System/tree/master" target="_blank" style="pointer-events: auto;">GitHub Repo</a>
-                        </div>
-                    </div>
-                    <div class="card" data-aos="fade-up" data-aos-delay="400">
-                        <h3>Grocery Management System</h3>
-                        <p>Relational database for store operations.</p>
-                        <p><strong>Tech:</strong> HTML, CSS, PHP, MySQL</p>
-                        <p><strong>Duration:</strong> 2 Months</p>
-                    </div>
-                    <div class="card" data-aos="fade-up" data-aos-delay="500">
-                        <h3>Mini Library Management System</h3>
-                        <p>Command-line tool for library tasks.</p>
-                        <p><strong>Tech:</strong> Bash, Linux CLI</p>
-                        <p><strong>Duration:</strong> 2 Months</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+            <img src="assets/mehedi-hassan.jpg" alt="Mehedi Hassan">
 
-        <section id="contact" class="py-6">
-            <div class="container">
-                <h2 class="section-title text-center" data-aos="fade-up">Get In Touch</h2>
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <div class="contact-info" data-aos="zoom-in">
-                            <p>West Vashantek, Dhaka 1206</p>
-                            <p>Email: <a href="mailto:mehedihassanshimul81@gmail.com">mehedihassanshimul81@gmail.com</a></p>
-                            <p>Phone: +8801521497660</p>
-                            <p>GitHub: <a href="https://github.com/Mehedi-Hassan81" target="_blank">github.com/Mehedi-Hassan81</a></p>
-                            <p>LinkedIn: <a href="https://www.linkedin.com/in/mehedi-hassan-296a052bb/" target="_blank">linkedin.com/mehedi-hassan</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="py-4 text-center">
-        <div class="container">
-            <p class="mb-0">© 2025 Mehedi Hassan. All rights reserved.</p>
         </div>
+
+        <div class="hero-right">
+
+            <p class="hero-tag">
+                Researcher • QA Engineer • Data Analyst
+            </p>
+
+            <h1>
+                Mehedi Hassan
+            </h1>
+
+            <h2 class="typewriter">
+                Senior Officer (IT) @ Uttara Bank PLC
+            </h2>
+
+            <p class="hero-description">
+
+                Published researcher and technology professional working at the
+                intersection of Artificial Intelligence, Software Quality Assurance,
+                Data Analytics, Secure Software Systems, and Enterprise Banking
+                Technology.
+
+                Author of peer-reviewed research in AI, Computer Vision,
+                Natural Language Processing, and IoT Systems.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="assets/cv.pdf" class="btn primary" target="_blank">
+                    Download CV
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=zQ7oDNwAAAAJ&hl=en"
+                    target="_blank" class="btn secondary">
+                    Google Scholar
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/Mehedi-Hassan81" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/mehedi-hassan81/"
+                    target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:mehedihassanshimul81@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= STATS ================= -->
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h3>4+</h3>
+            <p>Journal Publications</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>5+</h3>
+            <p>Professional Roles</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>10+</h3>
+            <p>Projects</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Research + Industry</h3>
+            <p>Experience</p>
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <span>About Me</span>
+            <h2>Bridging Research and Industry</h2>
+        </div>
+
+        <div class="about-content">
+
+            <p>
+
+                I am a researcher, QA engineer, and technology professional
+                with experience spanning Artificial Intelligence, Software
+                Quality Assurance, Data Analytics, and Enterprise Banking
+                Technology.
+
+            </p>
+
+            <p>
+
+                My work combines academic research and real-world problem solving.
+                I have published peer-reviewed research in Computer Vision,
+                Natural Language Processing, IoT Systems, and Data Analytics
+                while contributing to mission-critical banking systems and
+                software quality processes.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= RESEARCH INTERESTS ================= -->
+
+    <section class="section">
+
+        <div class="section-title">
+            <span>Research Focus</span>
+            <h2>Research Interests</h2>
+        </div>
+
+        <div class="interest-grid">
+
+            <div class="interest-card">AI for Software Engineering</div>
+            <div class="interest-card">Software Quality Assurance</div>
+            <div class="interest-card">Software Security</div>
+            <div class="interest-card">Machine Learning</div>
+            <div class="interest-card">Data Analytics</div>
+            <div class="interest-card">Program Analysis</div>
+            <div class="interest-card">Empirical Software Engineering</div>
+            <div class="interest-card">Large Language Models</div>
+            <div class="interest-card">Cybersecurity</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PUBLICATIONS ================= -->
+
+    <section id="research" class="section">
+
+        <div class="section-title">
+            <span>Research</span>
+            <h2>Publications</h2>
+        </div>
+
+        <div class="publication-grid">
+
+            <article class="publication-card">
+
+                <span class="journal-badge">JNACS • 2025</span>
+
+                <h3>
+                    Face Detection with MTCNN Using Densenet for Enhance Security
+                </h3>
+
+                <p>
+                    Journal of Networking and Communication Systems
+                </p>
+
+                <a href="https://doi.org/10.46253/jnacs.v8i1.a4"
+                    target="_blank" class="publication-link">
+                    View DOI
+                </a>
+
+            </article>
+
+            <article class="publication-card">
+
+                <span class="journal-badge">JNACS • 2025</span>
+
+                <h3>
+                    Sentiment Analysis with Text Mining: A Study from the
+                    Newspaper Contents of Bangladesh
+                </h3>
+
+                <p>
+                    Journal of Networking and Communication Systems
+                </p>
+
+                <a href="https://doi.org/10.46253/jnacs.v8i1.a3"
+                    target="_blank" class="publication-link">
+                    View DOI
+                </a>
+
+            </article>
+
+            <article class="publication-card">
+
+                <span class="journal-badge">JNACS • 2024</span>
+
+                <h3>
+                    IoT Based Live Streaming and Object Detecting AI Robotic Car
+                </h3>
+
+                <p>
+                    Journal of Networking and Communication Systems
+                </p>
+
+                <a href="https://doi.org/10.46253/jnacs.v7i3.a3"
+                    target="_blank" class="publication-link">
+                    View DOI
+                </a>
+
+            </article>
+
+            <article class="publication-card">
+
+                <span class="journal-badge">JCMPSC • 2024</span>
+
+                <h3>
+                    IoT Based Solar Energy Collecting as Alternative Energy
+                    Source and Monitoring System
+                </h3>
+
+                <p>
+                    Journal of Computational Mechanics, Power System and Control
+                </p>
+
+                <a href="https://doi.org/10.46253/jcmps.v7i2.a2"
+                    target="_blank" class="publication-link">
+                    View DOI
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience" class="section">
+
+        <div class="section-title">
+            <span>Career Journey</span>
+            <h2>Professional Experience</h2>
+        </div>
+
+        <div class="timeline">
+
+            <!-- Uttara -->
+            <div class="timeline-item">
+
+                <h3>Senior Officer (IT)</h3>
+
+                <h4>Uttara Bank PLC</h4>
+
+                <span>Apr 2026 – Present</span>
+
+                <p>
+                    Enterprise Banking Systems, Database Operations,
+                    Access Control, Security Operations, Application Support,
+                    System Reliability.
+                </p>
+
+            </div>
+
+            <!-- a1qa -->
+            <div class="timeline-item">
+
+                <h3>Junior QA Engineer</h3>
+
+                <h4>a1qa</h4>
+
+                <span>Mar 2026 – Present</span>
+
+                <p>
+                    Functional Testing, Defect Reporting,
+                    QA Documentation, Test Design.
+                </p>
+
+            </div>
+
+            <!-- Sebpo -->
+            <div class="timeline-item">
+
+                <h3>Executive, General BPO</h3>
+
+                <h4>SEBPO Bangladesh</h4>
+
+                <span>Nov 2025 – Feb 2026</span>
+
+                <p>
+                    Business Operations, Workflow Management,
+                    Quality Compliance.
+                </p>
+
+            </div>
+
+            <!-- Acote -->
+            <div class="timeline-item">
+
+                <h3>Associate, Data Annotator</h3>
+
+                <h4>Acote Group</h4>
+
+                <span>Oct 2025</span>
+
+                <p>
+                    Dataset Preparation, AI Training Support,
+                    Data Annotation.
+                </p>
+
+            </div>
+
+            <!-- Nirjaas -->
+            <div class="timeline-item">
+
+                <h3>Junior QA Engineer</h3>
+
+                <h4>Nirjaas Group</h4>
+
+                <span>Dec 2024 – Sep 2025</span>
+
+                <p>
+                    Manual Testing, Defect Tracking,
+                    Software Validation.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+        <div class="section-title">
+            <span>Expertise</span>
+            <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Quality Assurance</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Data Analytics & BI</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Software Engineering</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Banking Technology</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <span>Portfolio</span>
+            <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Math Challenge Website Automation</h3>
+            </div>
+
+            <div class="project-card">
+                <h3>SauceDemo Playwright Framework</h3>
+            </div>
+
+            <div class="project-card">
+                <h3>E-Commerce Dynamic Search Testing</h3>
+            </div>
+
+            <div class="project-card">
+                <h3>Smartphone Insights Analysis</h3>
+            </div>
+
+            <div class="project-card">
+                <h3>SupportersFrame Bug Report Manager</h3>
+            </div>
+
+            <div class="project-card">
+                <h3>PhysiotherapyNursing</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section class="section">
+
+        <div class="section-title">
+            <span>Professional Development</span>
+            <h2>Certifications</h2>
+        </div>
+
+        <div class="certification-grid">
+
+            <div class="certificate">SQA Manual & Automated Testing - Ostad</div>
+            <div class="certificate">SQA Workshop - Ostad</div>
+            <div class="certificate">Python Developer - Sololearn</div>
+            <div class="certificate">SQL Intermediate - Sololearn</div>
+            <div class="certificate">Python Programming Bootcamp</div>
+            <div class="certificate">Business Analytics Professional Certificate</div>
+            <div class="certificate">Data Science & Analytics - HP Life</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+            <span>Get In Touch</span>
+            <h2>Let's Connect</h2>
+        </div>
+
+        <div class="contact-container">
+
+            <a href="mailto:mehedihassanshimul81@gmail.com">
+                mehedihassanshimul81@gmail.com
+            </a>
+
+            <a href="https://github.com/Mehedi-Hassan81"
+                target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/mehedi-hassan81/"
+                target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="https://scholar.google.com/citations?user=zQ7oDNwAAAAJ&hl=en"
+                target="_blank">
+                Google Scholar
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 Mehedi Hassan. Designed for Research, Innovation &
+            Technology.
+        </p>
+
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="../JS/index.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
+```
